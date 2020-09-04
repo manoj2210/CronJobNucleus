@@ -7,8 +7,6 @@ name: Teams-Notifier-Frontend
 on:
   schedule:
     - cron: '0 02 * * *'
-  issues:
-    types: [opened, edited, closed]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
